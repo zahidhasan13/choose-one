@@ -1,0 +1,18 @@
+.shop{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 30px;
+}
+.product-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    background: gray;
+    border-radius: 0 10px 10px 0;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.cart-section{
+    background: gray;
+    border-radius: 10px 0px 0px 10px;
+}
